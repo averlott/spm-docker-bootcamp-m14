@@ -1,0 +1,11 @@
+# This Deployment runs our API component
+version: '3.7'
+services:
+  spm-openjdk-bootcamp-m14:
+    # setea el nombre de la imagen a utilizar con la nomenclatura sugerida (repositorio + imagen +tag)
+    image: averlott/spm-openjdk-bootcamp-m14:1.0
+    # setea el nombre del contenedor a crear
+    container_name: spm-openjdk-bootcamp-m14
+    # setea el puerto del host y el puerto del contenedor que lo expone
+    ports:
+      - "8001:3456/tcp"
