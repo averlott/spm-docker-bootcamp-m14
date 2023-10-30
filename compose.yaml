@@ -1,4 +1,3 @@
-# This Deployment runs our API component
 version: '3.7'
 services:
   spm-openjdk-bootcamp-m14:
